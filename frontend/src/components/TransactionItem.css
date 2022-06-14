@@ -1,0 +1,40 @@
+.data_item {    
+    display: flex;
+    align-items: center;
+    margin-top: 2%;
+    width: 100%;
+    height: 450px;
+    background-color: white;
+    overflow-y: auto;
+  }
+  
+.data_item ul {
+    list-style-type: none;
+}
+
+.data_item li {
+    border: 1px solid #ddd;
+    margin-top: -1px; /* Prevent double borders */
+    background-color: white;
+    padding: 12px;
+}
+  
+.data_item .badge_success {
+    background-color: green;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.data_item .badge_fail {
+    background-color: red;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.data_item::-webkit-scrollbar {
+    display: none;
+}
